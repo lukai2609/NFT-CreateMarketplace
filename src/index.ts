@@ -1,4 +1,5 @@
 import { Wallet, Provider, Program } from '@project-serum/anchor';
+import { bs58 } from '@project-serum/anchor/dist/cjs/utils/bytes';
 import { Connection, clusterApiUrl, Keypair, PublicKey } from '@solana/web3.js'
 
 import * as splToken from '@solana/spl-token';
@@ -13,7 +14,9 @@ import { Collection } from "./js/collection";
 const CreateMarketplace = async () => {
     const connection = new Connection(clusterApiUrl("devnet"));
 
-    const admin = Keypair.fromSecretKey(new Uint8Array(adminWallet));
+    // const admin = Keypair.fromSecretKey(new Uint8Array(adminWallet));
+    const admin = Keypair.fromSecretKey(new Uint8Array(bs58.decode(adminWallet)));
+
     const anchorWallet = new Wallet(admin);
 
     let provider = new Provider(connection, anchorWallet, {
@@ -50,7 +53,7 @@ const CreateMarketplace = async () => {
     let symbol = new PublicKey("G4hS53oJHZRyt132iYAREZM2GMN2W4KrMKXB2zWWpW5u");
 
     await marketplace.createCollection(admin, "G4hS53oJHZRyt132iYAREZM2GMN2W4KrMKXB2zWWpW5u", creator, symbol, false)
-    
+
     console.log(marketplace.marketplacePDA.toBase58(), "marketplacePDA");
 
     let collectionPDA = await getCollectionPDA(marketplace.marketplacePDA, symbol);
@@ -78,7 +81,7 @@ const UpdateCollection = async () => {
     // let symbol = new PublicKey("2EZT51rkHsLdtDAdHkkPu3S34mjTezUGZNtgVQVHXHcp");
     let symbol = new PublicKey("51rWVP1Rb5fbys6wmoyuDir6yyumfCQSFcaCDef46baW");
     let collectionPDA = await getCollectionPDA(marketplace.marketplacePDA, symbol);
-    
+
     let creator = new PublicKey("51rWVP1Rb5fbys6wmoyuDir6yyumfCQSFcaCDef46baW");
 
     await marketplace.updateCollection(admin, collectionPDA, 300, null, creator, false)

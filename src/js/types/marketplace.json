@@ -58,8 +58,7 @@
           "name": "authority",
           "type": "publicKey"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "updateMarketplace",
@@ -94,8 +93,7 @@
             "option": "publicKey"
           }
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "updateMarketplaceMint",
@@ -145,8 +143,7 @@
           "name": "feesDestination",
           "type": "publicKey"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "createCollection",
@@ -196,8 +193,7 @@
           "name": "ignoreFee",
           "type": "bool"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "updateCollection",
@@ -243,8 +239,7 @@
             "option": "bool"
           }
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "createSellOrder",
@@ -322,8 +317,7 @@
           "name": "destination",
           "type": "publicKey"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "removeSellOrder",
@@ -369,8 +363,7 @@
           "name": "quantityToUnlist",
           "type": "u64"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "addQuantityToSellOrder",
@@ -416,8 +409,7 @@
           "name": "quantityToAdd",
           "type": "u64"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "buy",
@@ -488,8 +480,7 @@
           "name": "askQuantity",
           "type": "u64"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "createBuyOffer",
@@ -578,8 +569,7 @@
           "name": "storeNonce",
           "type": "u8"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "removeBuyOffer",
@@ -635,8 +625,7 @@
           "name": "storeNonce",
           "type": "u8"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "executeOffer",
@@ -737,8 +726,7 @@
           "name": "storeNonce",
           "type": "u8"
         }
-      ],
-      "returns": null
+      ]
     }
   ],
   "accounts": [
@@ -903,6 +891,6 @@
     }
   ],
   "metadata": {
-    "address": "4kEj1NA2zUQz46KWqkfjEX1AL6pqBvaMSznqJ5qG5QK5"
+    "address": "FmuwKcSXv9t78muY346ZScYYwqjhWHaokFUpjYHRJnaH"
   }
 }

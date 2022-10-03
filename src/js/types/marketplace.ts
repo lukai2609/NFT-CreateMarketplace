@@ -58,8 +58,7 @@ export type Marketplace = {
           "name": "authority",
           "type": "publicKey"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "updateMarketplace",
@@ -94,8 +93,7 @@ export type Marketplace = {
             "option": "publicKey"
           }
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "updateMarketplaceMint",
@@ -145,8 +143,7 @@ export type Marketplace = {
           "name": "feesDestination",
           "type": "publicKey"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "createCollection",
@@ -196,8 +193,7 @@ export type Marketplace = {
           "name": "ignoreFee",
           "type": "bool"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "updateCollection",
@@ -243,8 +239,7 @@ export type Marketplace = {
             "option": "bool"
           }
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "createSellOrder",
@@ -322,8 +317,7 @@ export type Marketplace = {
           "name": "destination",
           "type": "publicKey"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "removeSellOrder",
@@ -369,8 +363,7 @@ export type Marketplace = {
           "name": "quantityToUnlist",
           "type": "u64"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "addQuantityToSellOrder",
@@ -416,8 +409,7 @@ export type Marketplace = {
           "name": "quantityToAdd",
           "type": "u64"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "buy",
@@ -488,8 +480,7 @@ export type Marketplace = {
           "name": "askQuantity",
           "type": "u64"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "createBuyOffer",
@@ -578,8 +569,7 @@ export type Marketplace = {
           "name": "storeNonce",
           "type": "u8"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "removeBuyOffer",
@@ -635,8 +625,7 @@ export type Marketplace = {
           "name": "storeNonce",
           "type": "u8"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "executeOffer",
@@ -737,8 +726,7 @@ export type Marketplace = {
           "name": "storeNonce",
           "type": "u8"
         }
-      ],
-      "returns": null
+      ]
     }
   ],
   "accounts": [
@@ -964,8 +952,7 @@ export const IDL: Marketplace = {
           "name": "authority",
           "type": "publicKey"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "updateMarketplace",
@@ -1000,8 +987,7 @@ export const IDL: Marketplace = {
             "option": "publicKey"
           }
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "updateMarketplaceMint",
@@ -1051,8 +1037,7 @@ export const IDL: Marketplace = {
           "name": "feesDestination",
           "type": "publicKey"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "createCollection",
@@ -1102,8 +1087,7 @@ export const IDL: Marketplace = {
           "name": "ignoreFee",
           "type": "bool"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "updateCollection",
@@ -1149,8 +1133,7 @@ export const IDL: Marketplace = {
             "option": "bool"
           }
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "createSellOrder",
@@ -1228,8 +1211,7 @@ export const IDL: Marketplace = {
           "name": "destination",
           "type": "publicKey"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "removeSellOrder",
@@ -1275,8 +1257,7 @@ export const IDL: Marketplace = {
           "name": "quantityToUnlist",
           "type": "u64"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "addQuantityToSellOrder",
@@ -1322,8 +1303,7 @@ export const IDL: Marketplace = {
           "name": "quantityToAdd",
           "type": "u64"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "buy",
@@ -1394,8 +1374,7 @@ export const IDL: Marketplace = {
           "name": "askQuantity",
           "type": "u64"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "createBuyOffer",
@@ -1484,8 +1463,7 @@ export const IDL: Marketplace = {
           "name": "storeNonce",
           "type": "u8"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "removeBuyOffer",
@@ -1541,8 +1519,7 @@ export const IDL: Marketplace = {
           "name": "storeNonce",
           "type": "u8"
         }
-      ],
-      "returns": null
+      ]
     },
     {
       "name": "executeOffer",
@@ -1643,8 +1620,7 @@ export const IDL: Marketplace = {
           "name": "storeNonce",
           "type": "u8"
         }
-      ],
-      "returns": null
+      ]
     }
   ],
   "accounts": [
